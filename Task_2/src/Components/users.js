@@ -2,10 +2,10 @@ import React from 'react'
 
 const Users_card = ({loading,users}) => {
     return loading ? (   
-          <div id="main">
-            <img src="https://i.pinimg.com/originals/6b/f8/06/6bf8064ceee193af7a616651ea9ff8f9.gif" alt="Loaading.." className="loader"/>
+           <div id="main">
+            <img  src="https://cdn.dribbble.com/users/1319343/screenshots/14584578/media/e6517d247bf8d46e0a9b722b8894023d.gif" width="50%" alt="Loaading.." className="loader"/>
           </div>
-        ) : 
+        ) :
         (
           <div id="main">
     
